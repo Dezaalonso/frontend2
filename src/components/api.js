@@ -1,4 +1,4 @@
-export const API = "http://127.0.0.1:8000";
+export const API = "https://dacomstore.com/api";
 
 export async function apiFetch(path, apiKey, options = {}) {
   const res = await fetch(`${API}${path}`, {
